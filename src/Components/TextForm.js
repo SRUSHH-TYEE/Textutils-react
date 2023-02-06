@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-export default function (props) {
+export default function TextForm(props) {
     const [text, setText] = useState("");
     // text = "new text" // Wrong way to set new value
     // setText("new Text")// correct way to set new value
